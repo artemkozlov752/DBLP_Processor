@@ -1,0 +1,16 @@
+logs/
+xml_data/
+*.log
+*.log.*
+.cache
+.coverage
+.idea
+.pytest_cache
+pictures/
+
+# ==== Python specific ===
+# Byte-compiled / optimized / DLL files
+*$py.class
+*.py[cod]
+__pycache__/
+tests/.pytest_cache
