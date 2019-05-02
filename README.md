@@ -1,4 +1,4 @@
-# DBLP DOWNLOADER
+# DBLP PARSER
 
 ## Description
 This module implements the DBLP downloading in gz format, parse, convert it to pandas DataFrame and save
@@ -23,9 +23,9 @@ http://aiweb.cs.washington.edu/research/projects/xmltk/xmldata/data/dblp/dblp.xm
 4. python3.6 -m pytest tests/
 ```
 ## How to check logs
-See `dblp_downloader/logs/info.log`
+See `DBLP_Processor/logs/info.log`
 
 ## Result
-The downloaded gz xml will be in the `dblp_downloader/xml_data/dblp.xml.gz`
+The downloaded gz xml will be in the `DBLP_Processor/xml_data/dblp.xml.gz`
 
-The result histogram will be in `dblp_downloader/pictures/amount_per_year.pdf`
+The result histogram will be in `DBLP_Processor/pictures/amount_per_year.pdf`

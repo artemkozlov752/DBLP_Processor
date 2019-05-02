@@ -120,3 +120,4 @@ pictures/
 *.py[cod]
 __pycache__/
 tests/.pytest_cache
+xml_data/
